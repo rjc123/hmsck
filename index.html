@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="img/hmsckm.ico">
+
+    <title>HMSCK</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/hmsck-basic.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-16066469-2']);
+        _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+  </script>
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+        <img src="img/hmsck.png" width="100%">
+				<p>
+        </div>
+    </div><!-- /.container -->
+
+    <div class="container">
+      <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+
+        <h4><strong>We're no longer operating, but if you'd like, feel free to get in touch below.</strong></h4>
+
+        <form class="form-group row" method="post" type="contact_form" action="php/sendmail.php">
+          <fieldset>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+            <h5>Name</h5>
+            <input class="form-control" type="text" name="name" id="name"/><p>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6">
+            <h5>Email</h5>
+            <input class="form-control" type="text" name="email" id="email"/><p>
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-sm-12">
+            <h5>Enquiry</h5>
+            <textarea class="form-control" id="message" name="message" rows="4"></textarea><p>
+            </div>
+
+            <div class="center col-lg-12 col-md-12 col-sm-12">
+            <button class="btn btn-default" id="message_submit"><b>Send</b></button>
+            </div>
+          </fieldset>
+
+          <a name="success_message">
+          <div class="alert alert-relaxed" id="success_message">
+          <p><b>Sent!</b> We will get back in touch with you as soon as possible, please be patient.</p>
+          </div>
+          </a>
+          <a name="error_message">
+          <div class="alert alert-relaxed" id="error_message">
+          <p><b>Not Sent!</b> You're not finished with the form!</p>
+          </div>
+          </a>
+        </form>
+      </div>
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/alert.js"></script>
+    <script src="js/email.js"></script>
+  </body>
+</html>

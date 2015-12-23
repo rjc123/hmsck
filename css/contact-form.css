@@ -1,0 +1,58 @@
+/* COMMENT FORM & CONTACT FORM */
+
+#contact_form input {
+	padding: 0 0 0 38px;
+	margin: 8px 0 ;
+	color: #444;
+	background: none;
+	border: none;
+}
+#contact_form textarea {
+	margin: 10px 0 7px;
+	padding: 0 10px 0 38px;
+	color: #444;
+	background: none;
+	border: none;
+}
+
+#contact_form #message_submit {
+	display:block;
+	float:right;
+	height:35px;
+	text-indent:-9999px;
+	width:124px;
+	border: none;
+	cursor: pointer;
+	margin: 5px 0 0;
+}
+
+#message_submit {
+	display:block;
+	float:right;
+	height:35px;
+	width:108px;
+	border: none;
+	cursor: pointer;
+}
+
+#message_submit:hover {
+	background-position: -110px -185px;
+}
+
+#alert {
+	float: left;
+	width: 175px;
+	color: #FFFADF;
+	height: 25px;
+	margin: 8px 0 0 10px;
+	font-size: 0.8em;
+	text-shadow: 0 -1px 0 #888;
+	display: none; 
+}
+
+#success_message {
+	display: none;
+	text-align: center;
+	height: 211px;
+}
+
